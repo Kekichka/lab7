@@ -1,0 +1,32 @@
+.cost-wrapper {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+   }
+   
+   .auto-detect {
+    font-size: 0.55em;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+    background-color:#d4aa70;
+    width: fit-content;
+    border-radius: 20px;
+    cursor: pointer;
+   }
+
+   .auto-detect:hover {
+    box-shadow: 0px 0px 10px 0 #d4aa70;
+   }
+   
+   .selected-goods {
+    width:75%;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+   }
