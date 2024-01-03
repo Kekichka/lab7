@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import CampIcon from './camp-table.png';
 import './style.css';
-import GoodsContext from '../../context/goods.context';
+import GoodsContext from '../../context/goods.contex';
 
 const CampComponent = () => {
  const { removeAllGoods } = useContext(GoodsContext);

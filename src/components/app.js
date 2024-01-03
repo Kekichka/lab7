@@ -4,7 +4,7 @@ import GoodsComponent from './goods';
 import CounterComp from './counter';
 import './style.css';
 import GoodsMock from './goodsMock.json';
-import GoodsContext from '../context/goods.context';
+import GoodsContext from '../context/goods.contex';
 import CampComponent from './camp';
 
 const goods = GoodsMock.map(el => ({

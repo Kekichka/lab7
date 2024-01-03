@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react';
 import './style.css';
-import GoodsContext from '../../context/goods.context';
+import GoodsContext from '../../context/goods.contex';
 
 /**
  * 
